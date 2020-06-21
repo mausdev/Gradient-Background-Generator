@@ -1,0 +1,147 @@
+body {
+	font: 'Raleway', sans-serif;
+    position: relative;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    top: 15%;
+	background: linear-gradient(to right, red , yellow); /* Standard syntax */
+}
+
+.wrapper {
+    background-color: white;
+    border-radius: 8px;
+    width: 50%;
+    padding: 50px;
+    margin: auto;
+    opacity:0.9;
+}
+
+h1 {
+    font: 600 3.5em 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    width: 100%;
+}
+
+
+p {
+    text-align: center;
+}
+
+.color1 {
+    font: 'Raleway', sans-serif;
+    letter-spacing: .1em;
+    font-size: 12px;
+    background-color: green;
+    border-radius: 8px;
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -ms-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+}
+
+.color1:hover {
+    background-color: #66b266;
+    color: #FFF;
+    
+}
+
+
+.color2 {
+    font: 'Raleway', sans-serif;
+    letter-spacing: .1em;
+    font-size: 12px;
+    background-color: red;
+    border-radius: 8px;
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -ms-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+}
+
+.color2:hover {
+    background-color: #FF4C4C;
+    color: #FFF;
+}
+
+
+.button {
+    font: 'Raleway', sans-serif;
+    letter-spacing: .1em;
+    font-size: 12px;
+    background-color: #6666ff;
+    border-radius: 8px;
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -ms-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+
+}
+
+
+.button:hover {
+    background-color: #9999ff;
+    color: #FFF;
+}
+
+
+
+h3 {
+	font: 900 1em 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0.01em;
+
+}
+
+
+.inputbox {
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+#copyCode {
+    display: none;
+}
+
+#footer {
+    font-family: tahoma;
+    font-size: 9px;
+    position: absolute;
+    bottom: 0;
+    width: 50%;
+    height: 25px;
+}
+
+a {
+    text-decoration: none;
+}
